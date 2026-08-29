@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: -10px -10px 0px -10px;
+    
+} 
+.hamburger{
+ color:#fff;
+ display: none;
+}
+.container1{
+    color: white;
+    
+}
+.menu{
+    display: flex;
+   align-self: center;
+   column-gap: 20px;
+   flex-direction: row;
+   
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.container2{
+    color: white;
+   display: flex;
+   column-gap: 20px;
+}
+.box1{
+    margin-top: 0px;
+}
+.shopping{
+   padding-top: -10px;
+
+}
+.line{
+    margin-top: -15px;
+}
+
+@media(max-width:768px){
+.container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+} 
+   .menu{
+    flex-direction: column;
+    align-self: center;
+    row-gap: 30px;
+   }
+  
+   .hamburger{
+    display: inline;
+    font-size: 3rem;
+   }
+   .line{
+    display: none;
+   }
+   .box1{
+    display: none;
+   }
+} 
+    </style>
+</head>
+<body>
+   <div class="container">
+    <h2 class="container1">ShopEase</h2>
+    <div class="menu"> 
+    <div class="hamburger">&#9776;</div>
+   <a href="#" class="box">Home</a>
+   <a href="#" class="box">Products</a>
+   <a href="#" class="box">Categories</a>
+   <a href="#" class="box">Deals</a>
+   <a href="#" class="box">Contact</a>
+   
+    </div>
+   <div class="container2">
+   <p>Cart &#128722;</p>
+   <p>Login</p>
+ </div>
+</div>
+<h2 class="box1">Welcome to ShopEase!</h2>
+<div class="line">
+<p>Your one-stop destination for all shopping needs.</p></div>
+<p>2025b01010699</p>
+<p>shaurya srivastava</p>
+</body>
+</html>

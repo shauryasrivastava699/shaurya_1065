@@ -1,0 +1,113 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEasy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f3fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 400px;
+      margin: 40px auto;
+      border: 1px solid #333;
+      background-color: #f6f7fb;
+    }
+
+    .header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .product-card {
+      background-color: white;
+      width: 80%;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: left;
+      overflow: hidden;
+    }
+
+    .product-image {
+      width: 100%;
+      display: block;
+      background-color: #f9f9f9;
+    }
+
+    .product-info {
+      padding: 15px;
+    }
+
+    .product-info h3 {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .product-info p {
+      font-size: 13px;
+      color: #555;
+      margin: 8px 0;
+    }
+
+    .price-section {
+      margin: 10px 0;
+    }
+
+    .price {
+      color: #008000;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .old-price {
+      color: #999;
+      text-decoration: line-through;
+      margin-left: 8px;
+    }
+
+    .add-to-cart {
+      width: 100%;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .add-to-cart:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>ShopEasy</h1>
+    </header>
+
+    <div class="product-card">
+      <img src="tshirt.jpg" height="200" width="350">
+      <div class="product-info">
+        <h3>Classic Cotton T-Shirt</h3>
+        <p>Soft, breathable cotton. Regular fit. Available in multiple colors.</p>
+        <div class="price-section">
+          <span class="price">₹200</span>
+          <span class="old-price">₹1,000</span>
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
